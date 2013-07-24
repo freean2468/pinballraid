@@ -1,0 +1,83 @@
+{
+"root": [
+{
+"ID" : 1, 
+"Key" : {"Name" : "normal", "Level" : 1 }, 
+"LocalName" : "일반", 
+"Damage" : 1.1, 
+"Mass" : 1, 
+"Drag" : 0.75, 
+"EndWithTouch" : false, 
+"EndCondition" : 0, 
+"EndConditionParam" : 20, 
+"SplashSize" : 3.5, 
+"MovingType" : 0, 
+"ImageName" : "ball_basic", 
+"Product" : [ { "Condition" : {"Name" : "c_destroyed" }, "Object" : {"Name" : "i_create_speed_dot", "Param" : "1" } } ]
+}
+,
+{
+"ID" : 2, 
+"Key" : {"Name" : "landmine", "Level" : 1 }, 
+"LocalName" : "지뢰", 
+"Damage" : 1.5, 
+"Mass" : 1.5, 
+"Drag" : 0.75, 
+"EndWithTouch" : true, 
+"EndCondition" : 0, 
+"EndConditionParam" : 20, 
+"SplashSize" : 3.5, 
+"MovingType" : 0, 
+"ImageName" : "ball_landmine", 
+"Product" : [ { "Condition" : {"Name" : "c_destroyed" }, "Object" : {"Name" : "i_create_landmine", "Param" : "7" } } ]
+}
+,
+{
+"ID" : 3, 
+"Key" : {"Name" : "mirror", "Level" : 1 }, 
+"LocalName" : "미러", 
+"Damage" : 1.1, 
+"Mass" : 1, 
+"Drag" : 0.75, 
+"EndWithTouch" : false, 
+"EndCondition" : 0, 
+"EndConditionParam" : 20, 
+"SplashSize" : 3.5, 
+"MovingType" : 0, 
+"ImageName" : "ball_double", 
+"Product" : [ { "Condition" : {"Name" : "c_destroyed" }, "Object" : {"Name" : "i_create_speed_dot", "Param" : "1" } } ], 
+"Special" : [ { "Name" : "bs_mirror" } ]
+}
+,
+{
+"ID" : 4, 
+"Key" : {"Name" : "sniper", "Level" : 1 }, 
+"LocalName" : "스나이퍼", 
+"Damage" : 10, 
+"Mass" : 1, 
+"Drag" : 0, 
+"EndWithTouch" : false, 
+"EndCondition" : 2, 
+"EndConditionParam" : 1, 
+"SplashSize" : 0, 
+"MovingType" : 0, 
+"ImageName" : "ball_sniper"
+}
+,
+{
+"ID" : 5, 
+"Key" : {"Name" : "warp", "Level" : 1 }, 
+"LocalName" : "워프", 
+"Damage" : 1.1, 
+"Mass" : 1, 
+"Drag" : 0.75, 
+"EndWithTouch" : false, 
+"EndCondition" : 0, 
+"EndConditionParam" : 20, 
+"SplashSize" : 3.5, 
+"MovingType" : 0, 
+"ImageName" : "ball_warp", 
+"Product" : [ { "Condition" : {"Name" : "c_destroyed" }, "Object" : {"Name" : "i_create_speed_dot", "Param" : "1" } } ]
+}
+]
+}

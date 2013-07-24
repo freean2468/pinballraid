@@ -1,0 +1,21 @@
+<?xml version ="1.0" encoding="utf-8" ?>
+<ExcelToJson
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="ExcelToJson.xsd"
+  output="EquipData.json"
+  header="1">
+  <PostProcessList>
+    <PostProcess name="EnumInverter\EnumInvert.exe" usePath="true" param="EnumInverter\enum.txt EquipData.json"/>
+  </PostProcessList>
+  <DataList>
+    <Data name="ID" type="int"/>
+    <Data name="Name" type="string"/>
+    <Data name="Attack" type="int"/>
+    <Data name="Defense" type="int"/>
+    <Data name="Health" type="int"/>
+    <Data name="Evade" type="int"/>
+    <Data name="Critical" type="int"/>
+    <Data name="AvailableLevel" type="int"/>     
+    <Data name="SkillID" type="int"/>
+  </DataList>
+</ExcelToJson>

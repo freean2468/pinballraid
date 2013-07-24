@@ -1,0 +1,25 @@
+{
+"root": [
+{
+"ID" : 1, 
+"Name" : "King", 
+"Grade" : 6, 
+"Class" : 0, 
+"Max Level" : 99, 
+"MaxHENum" : 5, 
+"BallID" : 20, 
+"Skill1ID" : 1, 
+"Skill1UnlockLevel" : 1, 
+"Skill2ID" : 2, 
+"Skill2UnlockLevel" : 5, 
+"Skill3ID" : 3, 
+"Skill3UnlockLevel" : 10, 
+"Start" : {"HP" : 100, "ATK" : 100, "DEF" : 100 }, 
+"End" : {"HP" : 2000, "ATK" : 2000, "DEF" : 2000 }, 
+"CRIT" : 10, 
+"EVADE" : 10, 
+"GrowType" : Normal, 
+"ItemSlotNum" : 1
+}
+]
+}

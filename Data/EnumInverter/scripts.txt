@@ -1,0 +1,10 @@
+#../Script/GeoDef.json
+#../Script/JsonAIData.json
+#../Script/JsonArmorData.json
+#../Script/JsonBuffData.json
+#../Script/JsonLevelData.json
+#../Script/JsonMonsterData.json
+#../Script/JsonPCData.json
+#../Script/JsonSkillData.json
+#../Script/NPCSpawnInfo.json
+../Script/PCParam.json

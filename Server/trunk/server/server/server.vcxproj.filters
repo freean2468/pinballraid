@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\pb_server.js" />
+    <None Include="..\..\test_client.js" />
+    <None Include="..\..\start_server.sh">
+      <Filter>run</Filter>
+    </None>
+    <None Include="..\..\start_client.bat">
+      <Filter>run</Filter>
+    </None>
+    <None Include="..\..\start_server.bat">
+      <Filter>run</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\c2s.proto">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\c2sHandle.js">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\define.js">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\g2l.proto">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\handle.js">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\handler.js">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\handler_MongoDB.js">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\handler_MySQL.js">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\index.js">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\log.js">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\metric.js">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\mongodb.js">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\mysql.js">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\protoBuild.js">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\rank.js">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\request.js">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\router.js">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\s2c.proto">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\s2cHandle.js">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\server.js">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\session.js">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\util.js">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\ver.proto">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\..\HoneyRun\gameServer\verHandle.js">
+      <Filter>HoneyRun</Filter>
+    </None>
+    <None Include="..\..\..\..\Protocol\c2s.proto">
+      <Filter>proto</Filter>
+    </None>
+    <None Include="..\..\..\..\Protocol\s2c.proto">
+      <Filter>proto</Filter>
+    </None>
+    <None Include="..\..\..\..\Protocol\genProtocol.js">
+      <Filter>proto</Filter>
+    </None>
+    <None Include="..\..\pb_handler.js" />
+    <None Include="..\..\pb_route.js" />
+    <None Include="..\..\..\..\Protocol\가이드.txt">
+      <Filter>proto</Filter>
+    </None>
+    <None Include="..\..\테스트 케이스.txt" />
+    <None Include="..\..\pb_index.js" />
+    <None Include="..\..\test\pb_common_test.js">
+      <Filter>tdd</Filter>
+    </None>
+    <None Include="..\..\test\pb_function_test.js">
+      <Filter>tdd</Filter>
+    </None>
+    <None Include="..\..\test\pb_packet_test.js">
+      <Filter>tdd</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="run">
+      <UniqueIdentifier>{a8b63647-4cfd-4a99-93f6-0b1cb4fa9552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HoneyRun">
+      <UniqueIdentifier>{a48be8b8-2a06-4cfc-b660-8e09bb083a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto">
+      <UniqueIdentifier>{37813cab-98fd-4e4f-a18b-e4fa768944bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tdd">
+      <UniqueIdentifier>{049a7e8d-ea3f-42ce-bbc5-f42be016ec81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

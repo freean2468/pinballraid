@@ -1,0 +1,25 @@
+{
+"root": [
+{
+"ID" : 1, 
+"Name" : "망치1", 
+"Attack" : 10, 
+"Defense" : 0, 
+"Health" : 0, 
+"Evade" : 0, 
+"Critical" : 10, 
+"AvailableLevel" : 5
+}
+,
+{
+"ID" : 2, 
+"Name" : "망치2", 
+"Attack" : 11, 
+"Defense" : 0, 
+"Health" : 0, 
+"Evade" : 0, 
+"Critical" : 11, 
+"AvailableLevel" : 7
+}
+]
+}

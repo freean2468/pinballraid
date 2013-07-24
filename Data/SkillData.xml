@@ -1,0 +1,43 @@
+<?xml version ="1.0" encoding="utf-8" ?>
+<ExcelToJson
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="ExcelToJson.xsd"
+  output="SkillData.json"
+  header="2">
+  <PostProcessList>
+    <PostProcess name="EnumInverter\EnumInvert.exe" usePath="true" param="EnumInverter\enum.txt SkillData.json"/>
+  </PostProcessList>
+  <DataList>
+    <Data name="ID" type="int"/>
+    <Data name="LocalName" type="string"/>
+    <Data name="Key" type="object">
+	<Data name="Name" type="string"/>
+	<Data name="SkillLevel" type="int"/>
+    </Data>
+    <Data name="Type" type="enumerator"/>
+    <Data name="Trigger" type="obj_array">
+	<Data name="Type" type="enumerator"/>
+	<Data name="Probability" type="float"/>
+    </Data>
+    <Data name="Cooldown" type="int"/>
+    <Data name="TargetType" type="enumerator"/>
+    <Data name="TargetNum" type="int"/>     
+    <Data name="TargetAlive" type="bool"/>
+    <Data name="Repeat" type="obj_array">
+        <Data name="Count" type="int"/>
+        <Data name="SameTarget" type="bool"/>
+    </Data>
+    <Data name="DisplayPeriod" type="enumerator"/>
+    <Data name="DisplayType" type="enumerator"/>
+    <Data name="EffectName" type="string"/>
+    <Data name="HitEffectName" type="string"/>
+    <Data name="Condition" type="obj_array">
+	<Data name="Name" type="string"/>
+	<Data name="Param" type="string"/>
+    </Data>
+    <Data name="Effect" type="obj_array">
+	<Data name="Name" type="string"/>
+	<Data name="Param" type="string"/>
+    </Data>
+  </DataList>
+</ExcelToJson>

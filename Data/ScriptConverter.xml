@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<ScriptList>
+  <Script src="UnitData.xlsx" template="UnitData.xml" dest="UnitData.json" sheetNo="1"/>
+  <Script src="SkillData.xlsx" template="SkillData.xml" dest="SkillData.json" sheetNo="1"/>
+  <Script src="EquipData.xlsx" template="EquipData.xml" dest="EquipData.json" sheetNo="1"/>
+  <Script src="BallData.xlsx" template="BallData.xml" dest="BallData.json" sheetNo="1"/>
+  <Script src="BuffData.xlsx" template="BuffData.xml" dest="BuffData.json" sheetNo="1"/>
+</ScriptList>

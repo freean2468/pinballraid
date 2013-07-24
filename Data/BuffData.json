@@ -1,0 +1,192 @@
+{
+"root": [
+{
+"ID" : 1, 
+"LocalName" : "스턴", 
+"Name" : "buff_stun", 
+"BuffType" : 1, 
+"BuffSeries" : "bs_stun", 
+"Effect" : [ { "Name" : "b_disable_attack" }, { "Name" : "b_disable_magic_ball" }, { "Name" : "b_disable_active_skill" } ]
+}
+,
+{
+"ID" : 2, 
+"LocalName" : "침묵", 
+"Name" : "buff_silence", 
+"BuffType" : 1, 
+"BuffSeries" : "bs_silence", 
+"Effect" : [ { "Name" : "b_disable_trigger_skill" }, { "Name" : "b_disable_active_skill" } ]
+}
+,
+{
+"ID" : 3, 
+"LocalName" : "공포", 
+"Name" : "buff_fear", 
+"BuffType" : 1, 
+"BuffSeries" : "bs_fear", 
+"Effect" : [ { "Name" : "b_disable_attack" }, { "Name" : "b_disable_magic_ball" } ]
+}
+,
+{
+"ID" : 4, 
+"LocalName" : "혼란", 
+"Name" : "buff_confusion", 
+"BuffType" : 1, 
+"BuffSeries" : "bs_confusion", 
+"Effect" : [ { "Name" : "b_confusion" } ]
+}
+,
+{
+"ID" : 5, 
+"LocalName" : "중독", 
+"Name" : "buff_poison_lv1", 
+"BuffType" : 1, 
+"BuffSeries" : "bs_poison", 
+"Effect" : [ { "Name" : "t_damage" } ]
+}
+,
+{
+"ID" : 6, 
+"LocalName" : "빙결", 
+"Name" : "buff_freezing_lv1", 
+"BuffType" : 1, 
+"BuffSeries" : "bs_freezing", 
+"Effect" : [ { "Name" : "b_mul_evade", "Param" : "0" }, { "Name" : "b_mul_damage", "Param" : "1.5" } ]
+}
+,
+{
+"ID" : 7, 
+"LocalName" : "사기저하", 
+"Name" : "buff_low_morale", 
+"BuffType" : 1, 
+"BuffSeries" : "bs_low_morale", 
+"Effect" : [ { "Name" : "b_mul_critical", "Param" : "0" } ]
+}
+,
+{
+"ID" : 8, 
+"LocalName" : "출혈", 
+"Name" : "buff_bleeding_lv1", 
+"BuffType" : 1, 
+"BuffSeries" : "bs_bleeding", 
+"Effect" : [ { "Name" : "b_mul_damage", "Param" : "1.5" } ]
+}
+,
+{
+"ID" : 9, 
+"LocalName" : "속박", 
+"Name" : "buff_restriction", 
+"BuffType" : 1, 
+"BuffSeries" : "bs_restriction", 
+"Effect" : [ { "Name" : "b_mul_evade", "Param" : "0" } ]
+}
+,
+{
+"ID" : 10, 
+"LocalName" : "화염", 
+"Name" : "buff_flame_lv1", 
+"BuffType" : 1, 
+"BuffSeries" : "bs_flame", 
+"Effect" : [ { "Name" : "t_damage", "Param" : "100" } ]
+}
+,
+{
+"ID" : 11, 
+"LocalName" : "무적", 
+"Name" : "buff_invincible", 
+"BuffType" : 0, 
+"BuffSeries" : "bs_invincible", 
+"Effect" : [ { "Name" : "b_mul_damage", "Param" : "0" } ]
+}
+,
+{
+"ID" : 12, 
+"LocalName" : "방어막", 
+"Name" : "buff_shield_lv1", 
+"BuffType" : 0, 
+"BuffSeries" : "bs_shield", 
+"Effect" : [ { "Name" : "b_mul_damage", "Param" : "0.7" } ]
+}
+,
+{
+"ID" : 13, 
+"LocalName" : "신의 가호", 
+"Name" : "buff_divine", 
+"BuffType" : 0, 
+"BuffSeries" : "bs_divine", 
+"Effect" : [ { "Name" : "b_ignore_buff_type", "Param" : "DEBUFF" } ]
+}
+,
+{
+"ID" : 14, 
+"LocalName" : "사기충천", 
+"Name" : "buff_full_morale", 
+"BuffType" : 0, 
+"BuffSeries" : "bs_full_morale", 
+"Effect" : [ { "Name" : "b_set_critical_ratio", "Param" : "1" } ]
+}
+,
+{
+"ID" : 15, 
+"LocalName" : "은신", 
+"Name" : "buff_hide", 
+"BuffType" : 0, 
+"BuffSeries" : "bs_hide", 
+"Effect" : [ { "Name" : "b_hide" } ]
+}
+,
+{
+"ID" : 16, 
+"LocalName" : "도발", 
+"Name" : "buff_provoke", 
+"BuffType" : 1, 
+"BuffSeries" : "bs_provoke", 
+"Effect" : [ { "Name" : "b_provoke" } ]
+}
+,
+{
+"ID" : 17, 
+"LocalName" : "데미지 반사", 
+"Name" : "buff_damage_reflection_lv1", 
+"BuffType" : 0, 
+"BuffSeries" : "bs_damage_reflection", 
+"Effect" : [ { "Name" : "b_damage_reflection", "Param" : "0.5" } ]
+}
+,
+{
+"ID" : 18, 
+"LocalName" : "공격력 증가", 
+"Name" : "buff_inc_attack_lv1", 
+"BuffType" : 0, 
+"BuffSeries" : "bs_attack", 
+"Effect" : [ { "Name" : "b_mul_attack", "Param" : "1.1" } ]
+}
+,
+{
+"ID" : 19, 
+"LocalName" : "공격력 감소", 
+"Name" : "buff_dec_attack_lv1", 
+"BuffType" : 1, 
+"BuffSeries" : "bs_attack", 
+"Effect" : [ { "Name" : "b_mul_attack", "Param" : "0.9" } ]
+}
+,
+{
+"ID" : 20, 
+"LocalName" : "방어력 증가", 
+"Name" : "buff_inc_defense_lv1", 
+"BuffType" : 0, 
+"BuffSeries" : "bs_defense", 
+"Effect" : [ { "Name" : "b_mul_defnse", "Param" : "1.1" } ]
+}
+,
+{
+"ID" : 21, 
+"LocalName" : "방어력 감소", 
+"Name" : "buff_dec_defense_lv1", 
+"BuffType" : 1, 
+"BuffSeries" : "bs_defense", 
+"Effect" : [ { "Name" : "b_mul_defnse", "Param" : "0.9" } ]
+}
+]
+}

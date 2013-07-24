@@ -1,0 +1,29 @@
+proto파일에 정의되는 패킷은 message이다.
+
+message는 반드시 msg_id = 1 [default = 0]; 포함해야 하고,
+msg_name = 2 [default = '메시지이름'];을 포함해야 한다.
+
+
+즉, 예를 들어
+
+message LogIn {
+	optional int32 msg_id = 1 [default = 473];
+	optional string msg_name = 2 [default = 'LogIn'];
+	required string name = 3;
+	required string pwd = 4;
+}
+
+형태이어야 한다.
+
+
+그후 node genProtocol.js c2s.proto/s2c.proto를 실행하여 패킷의 아이디를 결정할 수 있다.
+
+
+
+
+
+테스트
+
+1. 패킷의 아이디는 유일해야 한다.
+2. 패킷에는 msg_id, msg_name이 있어야 한다.
+

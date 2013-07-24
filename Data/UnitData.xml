@@ -1,0 +1,39 @@
+<?xml version ="1.0" encoding="utf-8" ?>
+<ExcelToJson
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="ExcelToJson.xsd"
+  output="UnitData.json"
+  header="2">
+  <PostProcessList>
+    <PostProcess name="EnumInverter\EnumInvert.exe" usePath="true" param="EnumInverter\enum.txt UnitData.json"/>
+  </PostProcessList>
+  <DataList>
+    <Data name="ID" type="int"/>
+    <Data name="Name" type="string"/>
+    <Data name="Grade" type="int"/>
+    <Data name="Class" type="enumerator"/>
+    <Data name="Max Level" type="int"/>
+    <Data name="MaxHENum" type="int"/>
+    <Data name="BallID" type="int"/>
+    <Data name="Skill1ID" type="int"/>     
+    <Data name="Skill1UnlockLevel" type="int"/>
+    <Data name="Skill2ID" type="int"/>     
+    <Data name="Skill2UnlockLevel" type="int"/>
+    <Data name="Skill3ID" type="int"/>     
+    <Data name="Skill3UnlockLevel" type="int"/>
+    <Data name="Start" type="object">
+      <Data name="HP" type="int"/>
+      <Data name="ATK" type="int"/>
+      <Data name="DEF" type="int"/>
+    </Data>
+    <Data name="End" type="object">
+      <Data name="HP" type="int"/>
+      <Data name="ATK" type="int"/>
+      <Data name="DEF" type="int"/>
+    </Data>
+    <Data name="CRIT" type="int"/>
+    <Data name="EVADE" type="int"/>
+    <Data name="GrowType" type="enumerator"/>
+    <Data name="ItemSlotNum" type="int"/>
+  </DataList>
+</ExcelToJson>

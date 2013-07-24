@@ -1,0 +1,105 @@
+{
+"root": [
+{
+"ID" : 1, 
+"LocalName" : "더블 어택", 
+"Key" : {"Name" : "t_double_attack", "SkillLevel" : 1 }, 
+"Type" : 2, 
+"Trigger" : [ { "Type" : 0, "Probability" : 0.2 } ], 
+"Cooldown" : 0, 
+"TargetType" : 0, 
+"TargetNum" : 1, 
+"TargetAlive" : true, 
+"Repeat" : [ { "Count" : 2, "SameTarget" : true } ], 
+"DisplayPeriod" : 0, 
+"DisplayType" : 3, 
+"EffectName" : "skill_effect", 
+"HitEffectName" : "SkillEffectAttack", 
+"Effect" : [ { "Name" : "i_damage_mul_attack", "Param" : "1" } ]
+}
+,
+{
+"ID" : 2, 
+"LocalName" : "전체 베기", 
+"Key" : {"Name" : "t_attack_all", "SkillLevel" : 1 }, 
+"Type" : 2, 
+"Trigger" : [ { "Type" : 0, "Probability" : 0.2 } ], 
+"Cooldown" : 0, 
+"TargetType" : 0, 
+"TargetNum" : -1, 
+"TargetAlive" : true, 
+"DisplayPeriod" : 0, 
+"DisplayType" : 1, 
+"EffectName" : "skill_effect", 
+"HitEffectName" : "SkillEffectAttack", 
+"Effect" : [ { "Name" : "i_damage_mul_attack", "Param" : "1" } ]
+}
+,
+{
+"ID" : 3, 
+"LocalName" : "무적", 
+"Key" : {"Name" : "t_invincible", "SkillLevel" : 1 }, 
+"Type" : 2, 
+"Trigger" : [ { "Type" : 1, "Probability" : 0.2 } ], 
+"Cooldown" : 0, 
+"TargetType" : 2, 
+"TargetNum" : 1, 
+"TargetAlive" : true, 
+"DisplayPeriod" : 1, 
+"DisplayType" : 0, 
+"EffectName" : "skill_invincible", 
+"HitEffectName" : "SkillEffectHeal", 
+"Effect" : [ { "Name" : "i_apply_buff", "Param" : "buff_invincible,1" } ]
+}
+,
+{
+"ID" : 4, 
+"LocalName" : "도발", 
+"Key" : {"Name" : "t_provoke", "SkillLevel" : 1 }, 
+"Type" : 2, 
+"Trigger" : [ { "Type" : 1, "Probability" : 1 } ], 
+"Cooldown" : 0, 
+"TargetType" : 0, 
+"TargetNum" : -1, 
+"TargetAlive" : true, 
+"DisplayPeriod" : 1, 
+"DisplayType" : 0, 
+"EffectName" : "skill_provoke", 
+"HitEffectName" : "SkillEffectHeal", 
+"Condition" : [ { "Name" : "c_ally_hp_ratio_below", "Param" : "0.3" } ], 
+"Effect" : [ { "Name" : "i_apply_buff", "Param" : "buff_provoke,1" } ]
+}
+,
+{
+"ID" : 5, 
+"LocalName" : "전체 베기", 
+"Key" : {"Name" : "a_attack_all", "SkillLevel" : 1 }, 
+"Type" : 0, 
+"Cooldown" : 3, 
+"TargetType" : 0, 
+"TargetNum" : -1, 
+"TargetAlive" : true, 
+"DisplayPeriod" : 3, 
+"DisplayType" : 1, 
+"EffectName" : "skill_effect", 
+"HitEffectName" : "SkillEffectHeal", 
+"Effect" : [ { "Name" : "i_damage_mul_attack", "Param" : "1" } ]
+}
+,
+{
+"ID" : 6, 
+"LocalName" : "전체 힐", 
+"Key" : {"Name" : "a_heal_all", "SkillLevel" : 1 }, 
+"Type" : 0, 
+"Cooldown" : 3, 
+"TargetType" : 1, 
+"TargetNum" : -1, 
+"TargetAlive" : true, 
+"DisplayPeriod" : 3, 
+"DisplayType" : 1, 
+"EffectName" : "skill_effect", 
+"HitEffectName" : "SkillEffectAttack", 
+"Effect" : [ { "Name" : "i_recover_hp", "Param" : "100" } ]
+}
+]
+}

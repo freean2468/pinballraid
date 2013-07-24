@@ -1,0 +1,20 @@
+package c2s;
+
+message VersionInfo {
+	required int32 version = 1;
+}
+
+message LogIn {
+	required string name = 1;
+	required string pwd = 2;
+}
+
+message RelogIn
+{
+	required int32 id = 1;
+}
+
+message LogOut
+{
+
+}

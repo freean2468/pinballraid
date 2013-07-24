@@ -1,0 +1,22 @@
+<?xml version ="1.0" encoding="utf-8" ?>
+<ExcelToJson
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="ExcelToJson.xsd"
+  output="BuffData.json"
+  header="2">
+  <PostProcessList>
+    <PostProcess name="EnumInverter\EnumInvert.exe" usePath="true" param="EnumInverter\enum.txt BuffData.json"/>
+  </PostProcessList>
+  <DataList>
+    <Data name="ID" type="int"/>
+    <Data name="LocalName" type="string"/>
+    <Data name="Name" type="string"/>
+    <Data name="BuffType" type="enumerator"/>
+    <Data name="BuffSeries" type="string"/>
+    <Data name="ImageName" type="string"/>
+    <Data name="Effect" type="obj_array">
+	<Data name="Name" type="string"/>
+	<Data name="Param" type="string"/>
+    </Data>
+  </DataList>
+</ExcelToJson>

@@ -1,0 +1,50 @@
+<?xml version ="1.0" encoding="utf-8" ?>
+<ExcelToJson
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="ExcelToJson.xsd"
+  output="BallData.json"
+  header="3">
+  <PostProcessList>
+    <PostProcess name="EnumInverter\EnumInvert.exe" usePath="true" param="EnumInverter\enum.txt BallData.json"/>
+  </PostProcessList>
+  <DataList>
+    <Data name="ID" type="int"/>
+    <Data name="Key" type="object">
+    	<Data name="Name" type="string"/>
+    	<Data name="Level" type="int"/>
+    </Data>
+    <Data name="LocalName" type="string"/>
+    <Data name="Damage" type="float"/>
+    <Data name="Mass" type="float"/>
+    <Data name="Drag" type="float"/>
+    <Data name="EndWithTouch" type="bool"/>
+    <Data name="EndCondition" type="enumerator"/>     
+    <Data name="EndConditionParam" type="float"/>
+    <Data name="SplashSize" type="float"/>
+    <Data name="MovingType" type="enumerator"/>
+    <Data name="StartPostion" type="enumerator"/>
+    <Data name="ImageName" type="string"/>
+    <Data name="Repeat" type="obj_array">
+        <Data name="Type" type="enumerator"/>
+        <Data name="Count" type="int"/>
+    </Data>
+    <Data name="Product" type="obj_array">
+        <Data name="Condition" type="object">
+            <Data name="Name" type="string"/>
+            <Data name="Param" type="string"/>
+        </Data>
+        <Data name="Object" type="object">
+            <Data name="Name" type="string"/>
+            <Data name="Param" type="string"/>
+        </Data>
+    </Data>
+    <Data name="Special" type="obj_array">
+        <Data name="Name" type="string"/>
+        <Data name="Param" type="string"/>
+    </Data>
+    <Data name="Effect" type="obj_array">
+        <Data name="Name" type="string"/>
+        <Data name="Param" type="string"/>
+    </Data>
+  </DataList>
+</ExcelToJson>

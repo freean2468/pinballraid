@@ -1,0 +1,14 @@
+package s2c;
+
+message VersionInfo {
+	required int32 version = 1;
+}
+
+message UserInfo {
+	required int32 id = 1;	
+}
+
+message RelogInReply
+{
+	required int32 id = 1;
+}
